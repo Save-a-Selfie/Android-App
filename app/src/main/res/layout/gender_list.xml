@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/blue_background_color" >
+    <TextView android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Female"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/gender_press"
+        android:id="@+id/txtlstFemale" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Male"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/gender_press"
+        android:textColor="#ffffff"
+        android:id="@+id/txtlstMale" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Other"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/gender_press"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:id="@+id/txtlstOther" />
+</LinearLayout>

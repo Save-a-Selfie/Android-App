@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background_color"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/tool_bar_top_padding"
+    tools:context="com.mymedisyn.android.signup.MobileVerification">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="mymedisyn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtMVHeading2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/llMV1">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="+91"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/textbox_rounded_right"
+            />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:hint="Enter Mobile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="phone"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:maxLength="10"
+            android:digits="0123456789"
+            android:background="@drawable/textbox_rounded_right"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Get Started"
+        android:textSize="20sp"
+        android:background="@drawable/button_press"
+        android:textColor="#000000"
+        android:layout_marginTop="50dp"/>
+
+
+    <TextView
+        android:padding="20sp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:text="By continuing, you are indicating that you agree to the privacy policy and Terms and Conditions."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
