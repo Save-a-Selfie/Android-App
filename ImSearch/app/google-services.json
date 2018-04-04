@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "590504177470",
+    "firebase_url": "https://imsearch-aee58.firebaseio.com",
+    "project_id": "imsearch-aee58",
+    "storage_bucket": "imsearch-aee58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590504177470:android:0a32e3c0afbe56a8",
+        "android_client_info": {
+          "package_name": "com.imsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590504177470-r3gauskne7ncvoiqstd858ej8er5qeh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imsearch",
+            "certificate_hash": "5a1115f44dc50ee5ee99c2e523af888f675a4007"
+          }
+        },
+        {
+          "client_id": "590504177470-g38tlumabmbs2ikke29a5cke3vo19icj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6btRSNvTeUIL0p2CT4YBTed9QTl8C1cs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590504177470-g38tlumabmbs2ikke29a5cke3vo19icj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

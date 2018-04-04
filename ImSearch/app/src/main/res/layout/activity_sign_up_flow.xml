@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.imsearch"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context="com.imsearch.LoginActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app2:layout_constraintHorizontal_bias="1.0"
+        app2:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Previous"
+        android:textSize="18sp"
+        android:background="@color/primaryColor"
+        android:textColor="@color/background_floating_material_light"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintLeft_toLeftOf="parent"
+        android:visibility="invisible"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+    android:id="@+id/next"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:text="Next"
+    android:textSize="18sp"
+    android:background="@color/primaryColor"
+    android:textColor="@color/background_floating_material_light"
+    app2:layout_constraintBottom_toBottomOf="parent"
+    app2:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="24dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:visibility="invisible"
+        android:text="Register"
+        android:textSize="18sp"
+        android:background="@color/primaryColor"
+        android:textColor="@color/background_floating_material_light"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp" />
+
+</android.support.constraint.ConstraintLayout>
